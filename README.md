@@ -30,7 +30,7 @@ And that’s it.  Depending on your internet connection, it will take a few minu
 
 1. Click on the downloaded image called **SparkARStudio_v98.msi**.
 
-2. Follow the instructions to install. Click on **Next**.
+2. Follow the instructions to install. Click on **Next**.<br />
 ![image](https://user-images.githubusercontent.com/466483/97206821-7c10fd00-1776-11eb-8b9f-aa00b2015be0.png)
 
 3. Read and accept terms in the License Agreement. Click on **Next**. 
