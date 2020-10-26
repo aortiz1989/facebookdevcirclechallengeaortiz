@@ -127,8 +127,8 @@ The Assets panel, should look like this. <br />
 4. Add another Face Tracker to The Scene panel, top left of screen, you should have two face trackers now. Click on + Add Object → Face Tracker → Insert. <br />
 ![image](https://user-images.githubusercontent.com/466483/97212843-280a1680-177e-11eb-96be-61f3e94a46cd.png)
 
-5. Right click on faceTraker1, then Add → Face Mesh.
-
+5. Right click on faceTraker1, then Add → Face Mesh. <br />
+![image](https://user-images.githubusercontent.com/466483/97215786-26425200-1782-11eb-9b26-25ff07b30f65.png)
 
 You should now see a checker pattern on the face of the person. Like this. <br />
 ![image](https://user-images.githubusercontent.com/466483/97212790-14f74680-177e-11eb-8de9-88659739a3ab.png)
@@ -181,7 +181,7 @@ The image of the person should look like this. <br />
 
 Here is the before and after of how the head should look.
 Before <br />  
-![image](https://user-images.githubusercontent.com/466483/97211963-065c5f80-177d-11eb-8cc0-b8b089c1b324.png)<br />
+![image](https://user-images.githubusercontent.com/466483/97216025-71f4fb80-1782-11eb-93c5-cbaabb050561.png)<br />
 After <br />
 ![image](https://user-images.githubusercontent.com/466483/97211849-e75dcd80-177c-11eb-87d5-ac18f06321f8.png)
 
