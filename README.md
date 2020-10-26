@@ -192,28 +192,32 @@ Here is the before and after of how the head should look.
 
 ### Step 6: Lets add our 3D object that will be floating around the head
 
-1. Under The Assets panel click on + Add Asset and select Search AR Library…
+1. Under The Assets panel click on + Add Asset and select Search AR Library… <br />
+![image](https://user-images.githubusercontent.com/466483/97211554-70c0d000-177c-11eb-814a-7a9c0f4d0931.png)
 
-2. In the pop-up click on 3D Shapes and select a shape. You can also import your own 3D object if you have one. 
+2. In the pop-up click on 3D Shapes and select a shape. You can also import your own 3D object if you have one. <br />
+![image](https://user-images.githubusercontent.com/466483/97211502-61da1d80-177c-11eb-9b64-58530929eb32.png)
 
-3. Get the 3D object and drag it under the nullObject0.
+3. Get the 3D object and drag it under the nullObject0. <br />
+![image](https://user-images.githubusercontent.com/466483/97211462-51c23e00-177c-11eb-9bb1-a86ffb7f38d4.png)
 
+4. Press the pause button on The Scene panel, top left menu on the screen. Select the 3D object. <br />
+![image](https://user-images.githubusercontent.com/466483/97211434-48d16c80-177c-11eb-907d-2175ac90d2c6.png)
 
-4. Press the pause button on The Scene panel, top left menu on the screen. Select the 3D object. 
+5. In The Viewpoint use the blue arrow to pull the 3D object towards the checker box object. <br />
+![image](https://user-images.githubusercontent.com/466483/97211405-3e16d780-177c-11eb-87b1-d623bd1fd5af.png)
 
+6. Pull the green arrow up, pass the checker box object. Press play to see how your 3D item looks. Adjust and also resize as needed. <br />
+![image](https://user-images.githubusercontent.com/466483/97211368-30615200-177c-11eb-84ca-90fbcce98b8b.png)
 
-5. In The Viewpoint use the blue arrow to pull the 3D object towards the checker box object. 
+7. If you are having a hard time seeing your image, you can change the color by selecting color under your object in the Assets Pane: <br />
+![image](https://user-images.githubusercontent.com/466483/97211266-060f9480-177c-11eb-8104-33bb498d7cfb.png)
 
-6. Pull the green arrow up, pass the checker box object. Press play to see how your 3D item looks. Adjust and also resize as needed.
+8. Then select the color you want in the Inspector Pane <br />
+![image](https://user-images.githubusercontent.com/466483/97211043-b16c1980-177b-11eb-9075-e32d97fc0bc2.png)
 
-
-
-7. If you are having a hard time seeing your image, you can change the color by selecting color under your object in the Assets Pane:
-
-8. Then select the color you want in the Inspector Pane
-
-All Done. Your image should look something like this. 
-
+All Done. Your image should look something like this. <br />
+![image](https://user-images.githubusercontent.com/466483/97211000-a31dfd80-177b-11eb-8400-0d54abbe49c4.png)
 
 Congratulations!  You have just created your very own AR filter.  Think of all the different possibilities you can do.  There are many other different templates built into Spark AR.  Give them a try and learn something new!  Don’t forget to have fun and share it with everyone!
 
