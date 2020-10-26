@@ -99,16 +99,17 @@ A **Loop Animation** block should show in the **Patch Editor**. <br />
 A **Transition** block should show in the **Patch Editor**. <br />
 ![image](https://user-images.githubusercontent.com/466483/97209616-cc3d8e80-1779-11eb-91b3-18938d34b6b0.png)
 
-3. Select the nullObject0, located in The Scene panel, top left side of screen. In the The Inspector on the right side of the screen, click on the arrow in front of Rotation. This will turn the Rotation section yellow as shown below and a yellow block will appear in the Patch Editor. Link the Transition block to the Rotation block by clicking on the arrow located at the end of the Transition block and connecting it to the arrow in front of the Rotation block.  
+3. Select the nullObject0, located in The Scene panel, top left side of screen. In the The Inspector on the right side of the screen, click on the arrow in front of Rotation. This will turn the Rotation section yellow as shown below and a yellow block will appear in the Patch Editor. Link the Transition block to the Rotation block by clicking on the arrow located at the end of the Transition block and connecting it to the arrow in front of the Rotation block.  <br />
+![image](https://user-images.githubusercontent.com/466483/97210332-ae245e00-177a-11eb-9412-cd0920049244.png)
+4. In the Transition block change the End values to x = 0, y = 360, and z = 0. This change will make the checker box speed in front of the person’s face. <br />
+![image](https://user-images.githubusercontent.com/466483/97210365-b9778980-177a-11eb-9064-c22050ee4443.png)
 
-4. In the Transition block change the End values to x = 0, y = 360, and z = 0. This change will make the checker box speed in front of the person’s face. 
+5. In the Loop Animation block change Duration to 5. This change will make the checker box spin slower. <br />
+![image](https://user-images.githubusercontent.com/466483/97210397-c3998800-177a-11eb-9517-8a0949846957.png)
 
-
-5. In the Loop Animation block change Duration to 5. This change will make the checker box spin slower. 
- 
-
-6. Select plane0, located in The Scene panel, top left side of screen. Then set  Z = 0.1 for the Position, located in The Inspector,  on the right side of the screen. This change will make the checker box spin and go around in front of the person’s face. Make the plane0 invisible by unchecking Visible on the Properties menu on The Inspector, right side of the screen. This will make the checker box disappear. 
- 
+6. Select plane0, located in The Scene panel, top left side of screen. Then set  Z = 0.1 for the Position, located in The Inspector,  on the right side of the screen. This change will make the checker box spin and go around in front of the person’s face. Make the plane0 invisible by unchecking Visible on the Properties menu on The Inspector, right side of the screen. This will make the checker box disappear. <br />
+![image](https://user-images.githubusercontent.com/466483/97210467-d6ac5800-177a-11eb-89c7-9aff145243ec.png) <br />
+![image](https://user-images.githubusercontent.com/466483/97210505-e461dd80-177a-11eb-94f0-55d7229a2911.png)
 
 ### Step 5: Working with Head Occluder 
 
