@@ -1,9 +1,9 @@
 # How To Make Your Own Quarantine Wedding AR Filter
 
-##Introduction:
-	In this tutorial, you will be learning how to use Spark AR to create your own AR Filter using Head Occluder and 3D Objects.   Covid-19 has changed the way we interact as a community.  With this AR filter, you can allow people to be part of the event without actually being there.  Your friends and family that can’t make it can utilize this filter and share on their Instagram. 
+# #Introduction:
+In this tutorial, you will be learning how to use Spark AR to create your own AR Filter using Head Occluder and 3D Objects.   Covid-19 has changed the way we interact as a community.  With this AR filter, you can allow people to be part of the event without actually being there.  Your friends and family that can’t make it can utilize this filter and share on their Instagram. 
  
-##You will learn:
+## You will learn:
 Downloading and setting up Spark AR Studio
 Creating and modifying a head tracking project
 Adding objects and animations
@@ -13,7 +13,8 @@ Putting all together to make the filter
 This tutorial is for complete beginners and just assumes you have access to a computer that can run Spark AR.  Not required, but nice to have would be pre existing digital objects that you want to incorporate into your filter.  
 
 ## Getting Started:
-	In order for this to work best, you can create your own 3D object.  This tutorial assumes you already have a 3D object or that you will be using one of the built in assets available in Spark AR Studio.  If you want to create your own 3D asset, you can do so in either Tinkercad.com or by using Paint 3D in Windows 10.  This entire tutorial can be done using default assets, but for the best effect, you’ll want to bring in your own 3D objects.  
+
+In order for this to work best, you can create your own 3D object.  This tutorial assumes you already have a 3D object or that you will be using one of the built in assets available in Spark AR Studio.  If you want to create your own 3D asset, you can do so in either Tinkercad.com or by using Paint 3D in Windows 10.  This entire tutorial can be done using default assets, but for the best effect, you’ll want to bring in your own 3D objects.  
 
 ### Step 1: Download Spark AR Studio
 
