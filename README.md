@@ -10,12 +10,12 @@ Adding objects and animations
 Utilizing the Head Occluder
 Putting all together to make the filter
 
-	This tutorial is for complete beginners and just assumes you have access to a computer that can run Spark AR.  Not required, but nice to have would be pre existing digital objects that you want to incorporate into your filter.  
+This tutorial is for complete beginners and just assumes you have access to a computer that can run Spark AR.  Not required, but nice to have would be pre existing digital objects that you want to incorporate into your filter.  
 
-##Getting Started:
+## Getting Started:
 	In order for this to work best, you can create your own 3D object.  This tutorial assumes you already have a 3D object or that you will be using one of the built in assets available in Spark AR Studio.  If you want to create your own 3D asset, you can do so in either Tinkercad.com or by using Paint 3D in Windows 10.  This entire tutorial can be done using default assets, but for the best effect, you’ll want to bring in your own 3D objects.  
 
-###Step 1: Download Spark AR Studio
+### Step 1: Download Spark AR Studio
 
 Go to https://sparkar.facebook.com/ar-studio
 Click on Download on the top right corner, pink button.
@@ -26,7 +26,7 @@ Then click on the next pink button that says Download.
 And that’s it.  Depending on your internet connection, it will take a few minutes to download.  Now, let’s install the software!
 
 
-###Step 2: Installing Spark AR Studio
+### Step 2: Installing Spark AR Studio
 
 Click on the downloaded image called SparkARStudio_v98.msi.
 
@@ -54,7 +54,7 @@ Finally, click on Install. Note: you might get a pop-up window that says that th
 Now that you have the software installed, it’s time to roll up your sleeves and start creating.  This tool is super powerful and there’s a lot going on.  
 
 
-###Step 3: Starting your first project
+### Step 3: Starting your first project
 
 Open Spark AR Studio and log in.
 Click on New Project. 
@@ -101,7 +101,7 @@ This will add the checker box to The Viewport.
  
 
 
-###Step 4: Adding the Animation Loop
+### Step 4: Adding the Animation Loop
 
  With plane0 selected, right click in the Patch Editor, select Animation --> Loop Animation and then click on the button Add Patch.
 
@@ -130,7 +130,7 @@ A Transition block should show in the Patch Editor.
  Select plane0, located in The Scene panel, top left side of screen. Then set  Z = 0.1 for the Position, located in The Inspector,  on the right side of the screen. This change will make the checker box spin and go around in front of the person’s face. Make the plane0 invisible by unchecking Visible on the Properties menu on The Inspector, right side of the screen. This will make the checker box disappear. 
  
 
-###Step 5: Working with Head Occluder 
+### Step 5: Working with Head Occluder 
 
  Now we need the Head Occluder. To get the Head Occluder go download the Head Occluder from https://sparkar.facebook.com/ar-studio/learn/articles/people-tracking/face-reference-assets#whats-included-in-the-face-reference-assets 
 Click on Download the Face Reference Assets here.
@@ -226,7 +226,7 @@ Here is the before and after of how the head should look.
 
 
 
-###Step 6: Lets add our 3D object that will be floating around the head
+### Step 6: Lets add our 3D object that will be floating around the head
 
  Under The Assets panel click on + Add Asset and select Search AR Library…
 
