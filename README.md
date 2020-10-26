@@ -81,118 +81,97 @@ This will add the checker box to The Viewport. <br />
 8.Drag plane0, located in The Scene panel, into nullObject0. It should look like this. <br />
 ![image](https://user-images.githubusercontent.com/466483/97208837-cf844a80-1778-11eb-895a-f710a704b161.png)
 
-9. On the top menu, click on **View → Show/Hide Patch Editor**
+9. On the top menu, click on **View → Show/Hide Patch Editor** <br />
 ![image](https://user-images.githubusercontent.com/466483/97208900-e5920b00-1778-11eb-9bdf-86babf68f91f.png)
 
 
 ### Step 4: Adding the Animation Loop
 
- With plane0 selected, right click in the Patch Editor, select Animation --> Loop Animation and then click on the button Add Patch.
+1. With **plane0** selected, right click in the **Patch Editor**, select **Animation --> Loop Animation** and then click on the button **Add Patch**. <br />
+![image](https://user-images.githubusercontent.com/466483/97209326-6b15bb00-1779-11eb-8cef-25da9b7d391a.png)
+
+A **Loop Animation** block should show in the **Patch Editor**. <br />
+![image](https://user-images.githubusercontent.com/466483/97209380-8254a880-1779-11eb-96b0-137defef309c.png)
+
+2. With **plane0** selected, right click in the **Patch Editor**, select **Animation → Transitions** then click on the button **Add Patch**. <br />
+![image](https://user-images.githubusercontent.com/466483/97209497-a6b08500-1779-11eb-9cfb-2ec7ec5367f0.png)
+
+A **Transition** block should show in the **Patch Editor**. <br />
+![image](https://user-images.githubusercontent.com/466483/97209616-cc3d8e80-1779-11eb-91b3-18938d34b6b0.png)
+
+3. Select the nullObject0, located in The Scene panel, top left side of screen. In the The Inspector on the right side of the screen, click on the arrow in front of Rotation. This will turn the Rotation section yellow as shown below and a yellow block will appear in the Patch Editor. Link the Transition block to the Rotation block by clicking on the arrow located at the end of the Transition block and connecting it to the arrow in front of the Rotation block.  
+
+4. In the Transition block change the End values to x = 0, y = 360, and z = 0. This change will make the checker box speed in front of the person’s face. 
 
 
-A Loop Animation block should show in the Patch Editor.
-
-
-
- With plane0 selected, right click in the Patch Editor, select Animation → Transitions then click on the button Add Patch.
-
-
-A Transition block should show in the Patch Editor.
-
-
-
- Select the nullObject0, located in The Scene panel, top left side of screen. In the The Inspector on the right side of the screen, click on the arrow in front of Rotation. This will turn the Rotation section yellow as shown below and a yellow block will appear in the Patch Editor. Link the Transition block to the Rotation block by clicking on the arrow located at the end of the Transition block and connecting it to the arrow in front of the Rotation block.  
-
-
-
- In the Transition block change the End values to x = 0, y = 360, and z = 0. This change will make the checker box speed in front of the person’s face. 
-
-
- In the Loop Animation block change Duration to 5. This change will make the checker box spin slower. 
+5. In the Loop Animation block change Duration to 5. This change will make the checker box spin slower. 
  
 
- Select plane0, located in The Scene panel, top left side of screen. Then set  Z = 0.1 for the Position, located in The Inspector,  on the right side of the screen. This change will make the checker box spin and go around in front of the person’s face. Make the plane0 invisible by unchecking Visible on the Properties menu on The Inspector, right side of the screen. This will make the checker box disappear. 
+6. Select plane0, located in The Scene panel, top left side of screen. Then set  Z = 0.1 for the Position, located in The Inspector,  on the right side of the screen. This change will make the checker box spin and go around in front of the person’s face. Make the plane0 invisible by unchecking Visible on the Properties menu on The Inspector, right side of the screen. This will make the checker box disappear. 
  
 
 ### Step 5: Working with Head Occluder 
 
- Now we need the Head Occluder. To get the Head Occluder go download the Head Occluder from https://sparkar.facebook.com/ar-studio/learn/articles/people-tracking/face-reference-assets#whats-included-in-the-face-reference-assets 
-Click on Download the Face Reference Assets here.
+1. Now we need the Head Occluder. To get the Head Occluder go download the Head Occluder from https://sparkar.facebook.com/ar-studio/learn/articles/people-tracking/face-reference-assets#whats-included-in-the-face-reference-assets 
 
- A zip folder will be downloaded to your computer. Unzip the folder wherever you would like to save the content of the zip folder. In the The Assets panel, bottom left of screen,  click From Computer. Browse to the location where you unzip your download. Open headOccluder.obj. In my case I saved mine to my documents at C:\User\Documents\FaceAssets\Mesh\headOccluder.obj
+2. Click on Download the Face Reference Assets here.
 
-
+3. A zip folder will be downloaded to your computer. Unzip the folder wherever you would like to save the content of the zip folder. In the The Assets panel, bottom left of screen,  click From Computer. Browse to the location where you unzip your download. Open headOccluder.obj. In my case I saved mine to my documents at C:\User\Documents\FaceAssets\Mesh\headOccluder.obj
 
 The Assets panel, should look like this. 
 
-
- Add another Face Tracker to The Scene panel, top left of screen, you should have two face trackers now. Click on + Add Object → Face Tracker → Insert. 
-
+4. Add another Face Tracker to The Scene panel, top left of screen, you should have two face trackers now. Click on + Add Object → Face Tracker → Insert. 
 
 
- Right click on faceTraker1, then Add → Face Mesh.
+
+5. Right click on faceTraker1, then Add → Face Mesh.
 
 
 You should now see a checker pattern on the face of the person. Like this. 
 
 
-
-
- Drag the headOccluder object in The Assets panel, bottom left section, to the faceTraker1 object, in The Scene panel, top left section. 
+6. Drag the headOccluder object in The Assets panel, bottom left section, to the faceTraker1 object, in The Scene panel, top left section. 
 
 
 This is what you will see in The Viewport. 
 
 
+7. With the headOccluder selected go to the The Inspector, located on the right side of screen, change Scale to X = 0.19, Y = 0.19, Z = 0.19. Play around with those values they may vary from screen to screen. It has to be larger than the human head, but not too big. 
 
 
- With the headOccluder selected go to the The Inspector, located on the right side of screen, change Scale to X = 0.19, Y = 0.19, Z = 0.19. Play around with those values they may vary from screen to screen. It has to be larger than the human head, but not too big. 
+8. Delete from The Assets panel, bottom left of screen, DefaultMaterial. Right click on DefaultMaterial then select Delete.
+
+9. In The Assets pane, located at the bottom left of screen, add an asset by clicking on + Add Asset and click on Material. You may rename it if you want, for the purpose of this tutorial this material will be named newMaterial. 
 
 
- Delete from The Assets panel, bottom left of screen, DefaultMaterial. Right click on DefaultMaterial then select Delete.
-
-
- In The Assets pane, located at the bottom left of screen, add an asset by clicking on + Add Asset and click on Material. You may rename it if you want, for the purpose of this tutorial this material will be named newMaterial. 
-
-
- With newMaterial selected in the The Assets panel, go to The Inspector, right side of screen and change Shader Type to Flat. 
+10. With newMaterial selected in the The Assets panel, go to The Inspector, right side of screen and change Shader Type to Flat. 
 
 
 The figures should look like this. 
 
 
 
- Select faceMesh0 under faceTracker1 on the The Scene panel, then in The Inspector, right side of screen, add newMaterial to Materials by clicking the plus sign and selecting newMaterail. 
+11. Select faceMesh0 under faceTracker1 on the The Scene panel, then in The Inspector, right side of screen, add newMaterial to Materials by clicking the plus sign and selecting newMaterail. 
 
 
 
 
 
- Select defaultobject under headOccluder in The Scene panel, top left side of screen. In The Inspector, the right side of the screen, change Material property to newMaterial. 
+12. Select defaultobject under headOccluder in The Scene panel, top left side of screen. In The Inspector, the right side of the screen, change Material property to newMaterial. 
 
 
- In The Assets panel, bottom left of screen, select newMaterial. In The Inspector, the rightside of the screen, change the Opacity to 30 to be able to see the person's face. This will change later to 0 (zero).
+13. In The Assets panel, bottom left of screen, select newMaterial. In The Inspector, the rightside of the screen, change the Opacity to 30 to be able to see the person's face. This will change later to 0 (zero).
 
 
-
-
-
-
- Select plane0 under faceTracker0 → nullObject0 → plane0 in The Scene panel, top left side of screen. In The Inspector, on the right side of the screen, check the Visible box to make the plane0 visible. 
+14. Select plane0 under faceTracker0 → nullObject0 → plane0 in The Scene panel, top left side of screen. In The Inspector, on the right side of the screen, check the Visible box to make the plane0 visible. 
  
 
 The image of the person should look like this. 
 
 
+15. To make the plane0 rotate around the head, pull the faceTraker1 to the top before faceTraker0, just like the picture. To do that just click and drag faceTraker1 and drop it before faceTraker0. 
 
-
-
-
- To make the plane0 rotate around the head, pull the faceTraker1 to the top before faceTraker0, just like the picture. To do that just click and drag faceTraker1 and drop it before faceTraker0. 
-
-
-
- Now we need to center the nullObject0 to the head. Select nullObject0, under faceTraker0, in The Scene plane, top left screen, change the Z Position properties to Z = -0.2, this is located in The Inspector, right side of screen.
+16. Now we need to center the nullObject0 to the head. Select nullObject0, under faceTraker0, in The Scene plane, top left screen, change the Z Position properties to Z = -0.2, this is located in The Inspector, right side of screen.
 
 
 Here is the before and after of how the head should look.
@@ -200,19 +179,19 @@ Here is the before and after of how the head should look.
                            Before                                                        After
 
 
- We need to update plane0 to have it come in front and around the face. Select plane0 under faceTraker0 → nullObjects0 → plane0 in The Scene panel. In The Inspector, right side of screen, change the Position for Z to 0.2.
+17. We need to update plane0 to have it come in front and around the face. Select plane0 under faceTraker0 → nullObjects0 → plane0 in The Scene panel. In The Inspector, right side of screen, change the Position for Z to 0.2.
  
 
- Now lets set the newMateial to invisible by selecting newMaterial under The Assets panel → Materials → newMateral.
+18. Now lets set the newMateial to invisible by selecting newMaterial under The Assets panel → Materials → newMateral.
 
 
- In The Inspector, right side of screen, under Render Options → Opacity, set Opacity to 0 (zero).
+19. In The Inspector, right side of screen, under Render Options → Opacity, set Opacity to 0 (zero).
 
 
 
 ### Step 6: Lets add our 3D object that will be floating around the head
 
- Under The Assets panel click on + Add Asset and select Search AR Library…
+1. Under The Assets panel click on + Add Asset and select Search AR Library…
 
 
 
