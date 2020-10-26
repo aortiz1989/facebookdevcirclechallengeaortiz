@@ -193,38 +193,23 @@ Here is the before and after of how the head should look.
 
 1. Under The Assets panel click on + Add Asset and select Search AR Library…
 
+2. In the pop-up click on 3D Shapes and select a shape. You can also import your own 3D object if you have one. 
+
+3. Get the 3D object and drag it under the nullObject0.
+
+
+4. Press the pause button on The Scene panel, top left menu on the screen. Select the 3D object. 
+
+
+5. In The Viewpoint use the blue arrow to pull the 3D object towards the checker box object. 
+
+6. Pull the green arrow up, pass the checker box object. Press play to see how your 3D item looks. Adjust and also resize as needed.
 
 
 
+7. If you are having a hard time seeing your image, you can change the color by selecting color under your object in the Assets Pane:
 
-
-
-
-
- In the pop-up click on 3D Shapes and select a shape. You can also import your own 3D object if you have one. 
-
-
- Get the 3D object and drag it under the nullObject0.
-
-
-
-
-
- Press the pause button on The Scene panel, top left menu on the screen. Select the 3D object. 
-
-
- In The Viewpoint use the blue arrow to pull the 3D object towards the checker box object. 
-
-
-
-
- Pull the green arrow up, pass the checker box object. Press play to see how your 3D item looks. Adjust and also resize as needed.
-
-
-
- If you are having a hard time seeing your image, you can change the color by selecting color under your object in the Assets Pane:
-
- Then select the color you want in the Inspector Pane
+8. Then select the color you want in the Inspector Pane
 
 All Done. Your image should look something like this. 
 
