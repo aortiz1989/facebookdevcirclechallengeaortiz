@@ -20,7 +20,7 @@ In order for this to work best, you can create your own 3D object.  This tutoria
 
 Go to https://sparkar.facebook.com/ar-studio
 Click on Download on the top right corner, pink button.
-
+![image](https://user-images.githubusercontent.com/466483/97206191-a0b8a500-1775-11eb-9013-2ee2498610af.png)
 Then click on the next pink button that says Download. 
 
 
