@@ -115,41 +115,44 @@ A **Transition** block should show in the **Patch Editor**. <br />
 
 1. Now we need the Head Occluder. To get the Head Occluder go download the Head Occluder from https://sparkar.facebook.com/ar-studio/learn/articles/people-tracking/face-reference-assets#whats-included-in-the-face-reference-assets 
 
-2. Click on Download the Face Reference Assets here.
+2. Click on Download the Face Reference Assets here.<br />
+![image](https://user-images.githubusercontent.com/466483/97213036-630c4a00-177e-11eb-9249-45328a567e38.png)
 
-3. A zip folder will be downloaded to your computer. Unzip the folder wherever you would like to save the content of the zip folder. In the The Assets panel, bottom left of screen,  click From Computer. Browse to the location where you unzip your download. Open headOccluder.obj. In my case I saved mine to my documents at C:\User\Documents\FaceAssets\Mesh\headOccluder.obj
+3. A zip folder will be downloaded to your computer. Unzip the folder wherever you would like to save the content of the zip folder. In the The Assets panel, bottom left of screen,  click From Computer. Browse to the location where you unzip your download. Open headOccluder.obj. In my case I saved mine to my documents at C:\User\Documents\FaceAssets\Mesh\headOccluder.obj <br />
+![image](https://user-images.githubusercontent.com/466483/97212926-3e17d700-177e-11eb-93fb-c2b7d94c4c77.png)
 
-The Assets panel, should look like this. 
+The Assets panel, should look like this. <br />
+![image](https://user-images.githubusercontent.com/466483/97212881-32c4ab80-177e-11eb-89e9-f5594dee2fb3.png)
 
-4. Add another Face Tracker to The Scene panel, top left of screen, you should have two face trackers now. Click on + Add Object → Face Tracker → Insert. 
-
-
+4. Add another Face Tracker to The Scene panel, top left of screen, you should have two face trackers now. Click on + Add Object → Face Tracker → Insert. <br />
+![image](https://user-images.githubusercontent.com/466483/97212843-280a1680-177e-11eb-96be-61f3e94a46cd.png)
 
 5. Right click on faceTraker1, then Add → Face Mesh.
 
 
-You should now see a checker pattern on the face of the person. Like this. 
+You should now see a checker pattern on the face of the person. Like this. <br />
+![image](https://user-images.githubusercontent.com/466483/97212790-14f74680-177e-11eb-8de9-88659739a3ab.png)
 
+6. Drag the headOccluder object in The Assets panel, bottom left section, to the faceTraker1 object, in The Scene panel, top left section. <br />
+![image](https://user-images.githubusercontent.com/466483/97212699-001ab300-177e-11eb-945f-3e46da8dd16a.png)
 
-6. Drag the headOccluder object in The Assets panel, bottom left section, to the faceTraker1 object, in The Scene panel, top left section. 
+This is what you will see in The Viewport. <br />
+![image](https://user-images.githubusercontent.com/466483/97212665-f729e180-177d-11eb-94df-688b92197668.png)
 
+7. With the headOccluder selected go to the The Inspector, located on the right side of screen, change Scale to X = 0.19, Y = 0.19, Z = 0.19. Play around with those values they may vary from screen to screen. It has to be larger than the human head, but not too big. <br />
+![image](https://user-images.githubusercontent.com/466483/97212584-dcf00380-177d-11eb-9db9-7759c501cdcd.png)
 
-This is what you will see in The Viewport. 
+8. Delete from The Assets panel, bottom left of screen, DefaultMaterial. Right click on DefaultMaterial then select Delete. <br />
+![image](https://user-images.githubusercontent.com/466483/97212547-d1044180-177d-11eb-9c1e-8c5e5f99698e.png)
 
+9. In The Assets pane, located at the bottom left of screen, add an asset by clicking on + Add Asset and click on Material. You may rename it if you want, for the purpose of this tutorial this material will be named newMaterial. <br />
+![image](https://user-images.githubusercontent.com/466483/97212526-c77ad980-177d-11eb-89d6-23ca010d4ebe.png)
 
-7. With the headOccluder selected go to the The Inspector, located on the right side of screen, change Scale to X = 0.19, Y = 0.19, Z = 0.19. Play around with those values they may vary from screen to screen. It has to be larger than the human head, but not too big. 
+10. With newMaterial selected in the The Assets panel, go to The Inspector, right side of screen and change Shader Type to Flat. <br />
+![image](https://user-images.githubusercontent.com/466483/97212495-baf68100-177d-11eb-8b68-6264ce982f19.png)
 
-
-8. Delete from The Assets panel, bottom left of screen, DefaultMaterial. Right click on DefaultMaterial then select Delete.
-
-9. In The Assets pane, located at the bottom left of screen, add an asset by clicking on + Add Asset and click on Material. You may rename it if you want, for the purpose of this tutorial this material will be named newMaterial. 
-
-
-10. With newMaterial selected in the The Assets panel, go to The Inspector, right side of screen and change Shader Type to Flat. 
-
-
-The figures should look like this. 
-
+The figures should look like this. <br />
+![image](https://user-images.githubusercontent.com/466483/97212366-88e51f00-177d-11eb-87d0-bce02f46028f.png)
 
 
 11. Select faceMesh0 under faceTracker1 on the The Scene panel, then in The Inspector, right side of screen, add newMaterial to Materials by clicking the plus sign and selecting newMaterail. 
@@ -161,33 +164,38 @@ The figures should look like this.
 12. Select defaultobject under headOccluder in The Scene panel, top left side of screen. In The Inspector, the right side of the screen, change Material property to newMaterial. 
 
 
-13. In The Assets panel, bottom left of screen, select newMaterial. In The Inspector, the rightside of the screen, change the Opacity to 30 to be able to see the person's face. This will change later to 0 (zero).
+13. In The Assets panel, bottom left of screen, select newMaterial. In The Inspector, the rightside of the screen, change the Opacity to 30 to be able to see the person's face. This will change later to 0 (zero). <br />
+![image](https://user-images.githubusercontent.com/466483/97212207-4ae7fb00-177d-11eb-95df-0f74485f3529.png) <br />
+![image](https://user-images.githubusercontent.com/466483/97212225-55a29000-177d-11eb-9ab3-e2dab9f4d685.png)
 
+14. Select plane0 under faceTracker0 → nullObject0 → plane0 in The Scene panel, top left side of screen. In The Inspector, on the right side of the screen, check the Visible box to make the plane0 visible. <br />
+![image](https://user-images.githubusercontent.com/466483/97212128-33a90d80-177d-11eb-9a5a-aace038c109f.png) <br />
+![image](https://user-images.githubusercontent.com/466483/97212165-3c99df00-177d-11eb-8d2c-59301b1df242.png)
 
-14. Select plane0 under faceTracker0 → nullObject0 → plane0 in The Scene panel, top left side of screen. In The Inspector, on the right side of the screen, check the Visible box to make the plane0 visible. 
- 
+The image of the person should look like this. <br />
+![image](https://user-images.githubusercontent.com/466483/97212101-2855e200-177d-11eb-908e-52a0a6e61db9.png)
 
-The image of the person should look like this. 
+15. To make the plane0 rotate around the head, pull the faceTraker1 to the top before faceTraker0, just like the picture. To do that just click and drag faceTraker1 and drop it before faceTraker0. <br />
+![image](https://user-images.githubusercontent.com/466483/97212066-1e33e380-177d-11eb-9f6f-4f53f289156a.png)
 
-
-15. To make the plane0 rotate around the head, pull the faceTraker1 to the top before faceTraker0, just like the picture. To do that just click and drag faceTraker1 and drop it before faceTraker0. 
-
-16. Now we need to center the nullObject0 to the head. Select nullObject0, under faceTraker0, in The Scene plane, top left screen, change the Z Position properties to Z = -0.2, this is located in The Inspector, right side of screen.
-
+16. Now we need to center the nullObject0 to the head. Select nullObject0, under faceTraker0, in The Scene plane, top left screen, change the Z Position properties to Z = -0.2, this is located in The Inspector, right side of screen. <br />
+![image](https://user-images.githubusercontent.com/466483/97212022-14aa7b80-177d-11eb-941e-d8009fb46637.png)
 
 Here is the before and after of how the head should look.
+Before <br />  
+![image](https://user-images.githubusercontent.com/466483/97211963-065c5f80-177d-11eb-8cc0-b8b089c1b324.png)
+After <br />
+![image](https://user-images.githubusercontent.com/466483/97211849-e75dcd80-177c-11eb-87d5-ac18f06321f8.png)
 
-                           Before                                                        After
+17. We need to update plane0 to have it come in front and around the face. Select plane0 under faceTraker0 → nullObjects0 → plane0 in The Scene panel. In The Inspector, right side of screen, change the Position for Z to 0.2. <br />
+![image](https://user-images.githubusercontent.com/466483/97211764-c2695a80-177c-11eb-960a-5f2c8d22f39f.png) <br />
+![image](https://user-images.githubusercontent.com/466483/97211785-cbf2c280-177c-11eb-8f61-8ee0bfa39d41.png)
 
+18. Now lets set the newMateial to invisible by selecting newMaterial under The Assets panel → Materials → newMateral.<br />
+![image](https://user-images.githubusercontent.com/466483/97211720-b2ea1180-177c-11eb-91bb-5bdd100287d7.png)
 
-17. We need to update plane0 to have it come in front and around the face. Select plane0 under faceTraker0 → nullObjects0 → plane0 in The Scene panel. In The Inspector, right side of screen, change the Position for Z to 0.2.
- 
-
-18. Now lets set the newMateial to invisible by selecting newMaterial under The Assets panel → Materials → newMateral.
-
-
-19. In The Inspector, right side of screen, under Render Options → Opacity, set Opacity to 0 (zero).
-
+19. In The Inspector, right side of screen, under Render Options → Opacity, set Opacity to 0 (zero). <br />
+![image](https://user-images.githubusercontent.com/466483/97211699-a665b900-177c-11eb-9eef-2bcf35ce8fe4.png)
 
 
 ### Step 6: Lets add our 3D object that will be floating around the head
