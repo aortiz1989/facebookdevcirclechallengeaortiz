@@ -33,19 +33,19 @@ And that’s it.  Depending on your internet connection, it will take a few minu
 2. Follow the instructions to install. Click on **Next**.<br />
 ![image](https://user-images.githubusercontent.com/466483/97206821-7c10fd00-1776-11eb-8b9f-aa00b2015be0.png)
 
-3. Read and accept terms in the License Agreement. Click on **Next**. 
+3. Read and accept terms in the License Agreement. Click on **Next**. <br />
 ![image](https://user-images.githubusercontent.com/466483/97206960-a498f700-1776-11eb-9a5a-658d671dce72.png)
 
-4. Follow special instructions for iOS users. Click **Next**. 
+4. Follow special instructions for iOS users. Click **Next**. <br />
 ![image](https://user-images.githubusercontent.com/466483/97206992-b2e71300-1776-11eb-9fa0-5b76cca98b01.png)
 
-5. This screen is just to keep older versions of Spark AR Studio on your computer. Check the box if that is what you want to do. Then click on **Next**.
+5. This screen is just to keep older versions of Spark AR Studio on your computer. Check the box if that is what you want to do. Then click on **Next**. <br />
 ![image](https://user-images.githubusercontent.com/466483/97207038-c1352f00-1776-11eb-8519-d3ce88d8f4df.png)
 
-6. Choose where you want the program to be installed. Click on **Next**. 
+6. Choose where you want the program to be installed. Click on **Next**. <br />
 ![image](https://user-images.githubusercontent.com/466483/97207179-f17ccd80-1776-11eb-9e77-cbdbd877ccfe.png)
 
-7. Finally, click on **Install**. Note: you might get a pop-up window that says that this installation will change some devices. Click on **Yes**, then it will finish installing. 
+7. Finally, click on **Install**. Note: you might get a pop-up window that says that this installation will change some devices. Click on **Yes**, then it will finish installing. <br />
 ![image](https://user-images.githubusercontent.com/466483/97207244-06596100-1777-11eb-9d71-18f8e726c84d.png)
 
 Now that you have the software installed, it’s time to roll up your sleeves and start creating.  This tool is super powerful and there’s a lot going on.  
