@@ -53,49 +53,36 @@ Now that you have the software installed, it’s time to roll up your sleeves an
 
 ### Step 3: Starting your first project
 
-Open Spark AR Studio and log in.
-Click on New Project. 
+1. Open Spark AR Studio and log in.
+2. Click on **New Project**. <br /> 
+![image](https://user-images.githubusercontent.com/466483/97208072-f5f5b600-1777-11eb-9881-153d6dac5d28.png)
 
+3. On the pop-up screen select **Blank Project**. <br />
+![image](https://user-images.githubusercontent.com/466483/97208195-19b8fc00-1778-11eb-89a6-534203828f41.png)
 
- On the pop-up screen select Blank Project.
+4. Click on **+ Add Object**, located in the *The Scene panel*, top left section of screen. <br />
+![image](https://user-images.githubusercontent.com/466483/97208367-4a009a80-1778-11eb-8681-c60a529d00f4.png)
 
+5. On the pop-up select **Face Tracker** and then click on the **Insert** button. <br />
+![image](https://user-images.githubusercontent.com/466483/97208443-5f75c480-1778-11eb-96bb-cd20fb980fcf.png)
 
+6. Right click on **faceTraker0**, located in *The Scene panel*, top left section, go to **Add → Null Object**. <br />
+![image](https://user-images.githubusercontent.com/466483/97208584-88965500-1778-11eb-80d5-f5625121a32a.png)
 
+This will add the item below to **The Viewport**. <br />
+![image](https://user-images.githubusercontent.com/466483/97208645-951aad80-1778-11eb-9452-34e26bc0ecae.png)
 
+7. Right click on **faceTraker0**, located in *The Scene panel*, top left section, go to **Add → Plane**. <br />
+![image](https://user-images.githubusercontent.com/466483/97208743-b4b1d600-1778-11eb-9716-e8a836afaf11.png)
 
+This will add the checker box to The Viewport. <br />
+![image](https://user-images.githubusercontent.com/466483/97208778-be3b3e00-1778-11eb-85fa-4bd22df49094.png)
 
+8.Drag plane0, located in The Scene panel, into nullObject0. It should look like this. <br />
+![image](https://user-images.githubusercontent.com/466483/97208837-cf844a80-1778-11eb-895a-f710a704b161.png)
 
-
- Click on + Add Object, located in the The Scene panel, top left section of screen. 
-
- On the pop-up select Face Tracker and then click on the Insert button. 
-
-
-
-
-
-
-
- Right click on faceTraker0, located in The Scene panel, top left section, go to Add → Null Object.
-
-
-
-
-
-This will add the item below to The Viewport.
-
-
- Right click on faceTraker0, located in The Scene panel, top left section, go to Add → Plane.
-
-This will add the checker box to The Viewport.
-
-
- Drag plane0, located in The Scene panel, into nullObject0. It should look like this. 
-
-
-
-9.  On the top menu, click on View → Show/Hide Patch Editor
- 
+9. On the top menu, click on **View → Show/Hide Patch Editor**
+![image](https://user-images.githubusercontent.com/466483/97208900-e5920b00-1778-11eb-9bdf-86babf68f91f.png)
 
 
 ### Step 4: Adding the Animation Loop
