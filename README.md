@@ -4,11 +4,11 @@
 In this tutorial, you will be learning how to use Spark AR to create your own AR Filter using Head Occluder and 3D Objects.   Covid-19 has changed the way we interact as a community.  With this AR filter, you can allow people to be part of the event without actually being there.  Your friends and family that can’t make it can utilize this filter and share on their Instagram. 
  
 ## You will learn:
-Downloading and setting up Spark AR Studio
-Creating and modifying a head tracking project
-Adding objects and animations
-Utilizing the Head Occluder
-Putting all together to make the filter
+1.  Downloading and setting up Spark AR Studio
+2.  Creating and modifying a head tracking project
+3.  Adding objects and animations
+4.  Utilizing the Head Occluder
+5.  Putting all together to make the filter
 
 This tutorial is for complete beginners and just assumes you have access to a computer that can run Spark AR.  Not required, but nice to have would be pre existing digital objects that you want to incorporate into your filter.  
 
@@ -18,39 +18,35 @@ In order for this to work best, you can create your own 3D object.  This tutoria
 
 ### Step 1: Download Spark AR Studio
 
-Go to https://sparkar.facebook.com/ar-studio
-Click on Download on the top right corner, pink button.
+1. Go to https://sparkar.facebook.com/ar-studio
+2. Click on Download on the top right corner, pink button.
 ![image](https://user-images.githubusercontent.com/466483/97206191-a0b8a500-1775-11eb-9013-2ee2498610af.png)
-Then click on the next pink button that says Download. 
-
+3. Then click on the next pink button that says Download. 
+![image](https://user-images.githubusercontent.com/466483/97207127-e0cc5780-1776-11eb-998e-437354aed499.png)
 
 And that’s it.  Depending on your internet connection, it will take a few minutes to download.  Now, let’s install the software!
-
 
 ### Step 2: Installing Spark AR Studio
 
 Click on the downloaded image called SparkARStudio_v98.msi.
 
 Follow the instructions to install. Click on Next.
-
+![image](https://user-images.githubusercontent.com/466483/97206821-7c10fd00-1776-11eb-8b9f-aa00b2015be0.png)
 
 Read and accept terms in the License Agreement. Click on Next. 
-
+![image](https://user-images.githubusercontent.com/466483/97206960-a498f700-1776-11eb-9a5a-658d671dce72.png)
 
 Follow special instructions for iOS users. Click Next. 
-
-
-
+![image](https://user-images.githubusercontent.com/466483/97206992-b2e71300-1776-11eb-9fa0-5b76cca98b01.png)
 
 This screen is just to keep older versions of Spark AR Studio on your computer. Check the box if that is what you want to do. Then click on Next.
-
+![image](https://user-images.githubusercontent.com/466483/97207038-c1352f00-1776-11eb-8519-d3ce88d8f4df.png)
 
 Choose where you want the program to be installed. Click on Next. 
-
-
+![image](https://user-images.githubusercontent.com/466483/97207179-f17ccd80-1776-11eb-9e77-cbdbd877ccfe.png)
 
 Finally, click on Install. Note: you might get a pop-up window that says that this installation will change some devices. Click on Yes, then it will finish installing. 
-
+![image](https://user-images.githubusercontent.com/466483/97207244-06596100-1777-11eb-9d71-18f8e726c84d.png)
 
 Now that you have the software installed, it’s time to roll up your sleeves and start creating.  This tool is super powerful and there’s a lot going on.  
 
