@@ -154,15 +154,13 @@ This is what you will see in The Viewport. <br />
 The figures should look like this. <br />
 ![image](https://user-images.githubusercontent.com/466483/97212366-88e51f00-177d-11eb-87d0-bce02f46028f.png)
 
+11. Select faceMesh0 under faceTracker1 on the The Scene panel, then in The Inspector, right side of screen, add newMaterial to Materials by clicking the plus sign and selecting newMaterail. <br /> 
+![image](https://user-images.githubusercontent.com/466483/97215460-b3d17200-1781-11eb-825a-9952f9edf9a9.png)
+![image](https://user-images.githubusercontent.com/466483/97215478-baf88000-1781-11eb-9306-832620b83246.png)
 
-11. Select faceMesh0 under faceTracker1 on the The Scene panel, then in The Inspector, right side of screen, add newMaterial to Materials by clicking the plus sign and selecting newMaterail. 
-
-
-
-
-
-12. Select defaultobject under headOccluder in The Scene panel, top left side of screen. In The Inspector, the right side of the screen, change Material property to newMaterial. 
-
+12. Select defaultobject under headOccluder in The Scene panel, top left side of screen. In The Inspector, the right side of the screen, change Material property to newMaterial.<br />
+![image](https://user-images.githubusercontent.com/466483/97215513-c77cd880-1781-11eb-8ea3-927a2a1f37c5.png)
+![image](https://user-images.githubusercontent.com/466483/97215536-cea3e680-1781-11eb-8082-71b965c289da.png)
 
 13. In The Assets panel, bottom left of screen, select newMaterial. In The Inspector, the rightside of the screen, change the Opacity to 30 to be able to see the person's face. This will change later to 0 (zero). <br />
 ![image](https://user-images.githubusercontent.com/466483/97212207-4ae7fb00-177d-11eb-95df-0f74485f3529.png) <br />
@@ -183,7 +181,7 @@ The image of the person should look like this. <br />
 
 Here is the before and after of how the head should look.
 Before <br />  
-![image](https://user-images.githubusercontent.com/466483/97211963-065c5f80-177d-11eb-8cc0-b8b089c1b324.png)
+![image](https://user-images.githubusercontent.com/466483/97211963-065c5f80-177d-11eb-8cc0-b8b089c1b324.png)<br />
 After <br />
 ![image](https://user-images.githubusercontent.com/466483/97211849-e75dcd80-177c-11eb-87d5-ac18f06321f8.png)
 
